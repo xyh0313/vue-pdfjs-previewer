@@ -1,12 +1,13 @@
 # vue-pdfjs-previewer
 基于vue的pdf预览组件
-#本地起服务
-    npm run dev -- pdfPreviewer(该参数说明是允许examples下哪个例子)
 
-#安装 
+本地起服务
+    npm run dev -- pdfPreviewer(该参数说明是表示运行examples下哪个例子)
+
+安装 
     npm install vue-pdfjs-previewer
 
-#使用方法
+使用方法
 
     #第一步 注册该组件
 
