@@ -1,6 +1,6 @@
 {
   "name": "vue-pdfjs-previewer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于vue的pdf文件预览组件",
   "main": "dist/bundle.js",
   "scripts": {
