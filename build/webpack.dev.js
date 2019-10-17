@@ -70,7 +70,7 @@ module.exports = {
    devServer: {
        contentBase: path.join(__dirname, '../dist'), // 静态文件地址
        port: 8085, // 端口号
-       host: 'local.baidu.com', // 主机
+       host: hostname, // 主机
        overlay: true, // 如果出错，则在浏览器中显示出错误
        compress: true, // 服务器返回浏览器的时候是否启动gzip压缩
        openPage: 'index.html', // 打开路径
