@@ -26,16 +26,15 @@
     />
 
 Api说明
-    #props
 
-    title   标题
-    show    是否可见
-    url     预览地址
+    #props
+        title   标题
+        show    是否可见
+        url     预览地址
     
     #methods
-
-    onBeforePreview     预览之前事件
-    onSuccessOpenPdf    解析文件成功事件
-    onFailOpenPdf       解析文件失败事件
-    onCloseViewer       关闭预览事件
-    onFinishViewer      完成预览事件 即预览到最后一页
+        onBeforePreview     预览之前事件
+        onSuccessOpenPdf    解析文件成功事件
+        onFailOpenPdf       解析文件失败事件
+        onCloseViewer       关闭预览事件
+        onFinishViewer      完成预览事件 即预览到最后一页
