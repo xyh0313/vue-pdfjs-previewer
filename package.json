@@ -1,0 +1,38 @@
+{
+  "name": "vue-pdfjs-previewer",
+  "version": "1.0.0",
+  "description": "基于vue的pdf文件预览组件",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "dev": "webpack-dev-server --progress --config build/webpack.dev.js --pdfPreviewer",
+    "build": "webpack --mode production --progress --config  build/webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xyh0313/vue-pdfjs-previewer.git"
+  },
+  "author": "xinyanhui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xyh0313/vue-pdfjs-previewer/issues"
+  },
+  "homepage": "https://github.com/xyh0313/vue-pdfjs-previewer#readme",
+  "dependencies": {
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^4.0.0-beta.3",
+    "pdfjs-dist": "^2.2.228",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.2.0",
+    "vue-loader": "^15.7.1"
+  }
+}
