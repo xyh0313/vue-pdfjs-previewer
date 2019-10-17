@@ -1,8 +1,11 @@
 # vue-pdfjs-previewer
 基于vue的pdf预览组件
-#安装 npm install vue-pdfjs-previewer
+
+#安装 
+    npm install vue-pdfjs-previewer
 
 #使用方法
+
     #第一步 注册该组件
 
     import Vue from 'vue'
